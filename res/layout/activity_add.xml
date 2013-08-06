@@ -2,6 +2,56 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
-    
 
+    <ImageView
+        android:id="@+id/imageEarth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:contentDescription="@string/content_desc_earth"
+        android:src="@drawable/ic_launcher" />
+	<ImageView
+        android:id="@+id/imageMars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageEarth"
+        android:layout_margin="5dp"
+        android:contentDescription="@string/content_desc_mars"
+        android:src="@drawable/ic_launcher" />
+	<ImageView
+        android:id="@+id/imageVenus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageEarth"
+        android:layout_margin="5dp"
+        android:contentDescription="@string/content_desc_venus"
+        android:src="@drawable/ic_launcher" />
+	<ImageView
+        android:id="@+id/imageJupiter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageVenus"
+        android:layout_below="@+id/imageMars"
+        android:layout_margin="5dp"
+        android:contentDescription="@string/content_desc_jupiter"
+        android:src="@drawable/ic_launcher" />
+	<ImageView
+        android:id="@+id/imageSaturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageVenus"
+        android:layout_margin="5dp"
+        android:contentDescription="@string/content_desc_saturn"
+        android:src="@drawable/ic_launcher" />
+	<ImageView
+        android:id="@+id/imageNeptune"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageSaturn"
+        android:layout_below="@+id/imageJupiter"
+        android:layout_margin="5dp"
+        android:contentDescription="@string/content_desc_neptune"
+        android:src="@drawable/ic_launcher" />
 </RelativeLayout>
