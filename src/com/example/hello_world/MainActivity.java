@@ -12,9 +12,10 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setStartUpWorldValues();
-        setStartUpScreenText();
+        
     }
     protected void setStartUpWorldValues() {
+    	setStartUpScreenText();
     	earth.setPlanetColonies(1);							// Set Planet Colonies to 1
         earth.setPlanetMilitary(1);							// Set Planet Military Bases to 1
         earth.setColonyImmigration(1000);					// Set Planet Population to 1,000
